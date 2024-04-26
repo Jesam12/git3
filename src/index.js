@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+{/*
+export { default as Article } from '.article/Article';
+export { default as Brand } from './brand/Brand';
+export { default as CTA } from './cta/CTA';
+export { default as Brand } from './feature/Feature';
+export {default as Navbar } from './navbar/Navbar';*/}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

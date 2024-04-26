@@ -9,4 +9,4 @@ const WhatGPT = () => {
   )
 }
 
-export default WhatGPT
+export default WhatGPT;
