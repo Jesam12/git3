@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--color-bg);
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+/* Gradeint gotten from a tool (https://angrytools.com/gradient/) */
+.gradient__bg {
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+
+.gradient__text{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding{
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
