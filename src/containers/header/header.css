@@ -1,8 +1,8 @@
-.gpt__header {
+.gpt3__header {
     display: flex;
 }
 
-.gpt__header-container {
+.gpt3__header-container {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -12,11 +12,60 @@
     margin-right: 5rem;
 }
 
-.gpt__header-content h1 {
+.gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04rem;
 
+}
+
+.gpt3__header-content p {
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+.gpt3__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.gpt3__header-content__input input{
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    background:var(--color-footer);
+    border-radius: 5px 0px 0px 5px;
+    font-family: var(--font-family);
+    border: 2px solid var(--color-footer);
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0 1rem;
+    outline: none;
+    color: #FFF;
+}
+
+.gpt3__header-content__input button{
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
